@@ -1,0 +1,237 @@
+/* Global styles */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Background styles */
+  .background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: #000000;
+  }
+  
+  /* Dot styles */
+  .dot {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
+    animation: dot-glow 2s ease-in-out infinite alternate, dot-move 20s linear infinite;
+  }
+  /* Keyframes for dot glowing animation */
+@keyframes dot-glow {
+    0% {
+      transform: scale(1);
+      box-shadow: 0 0 40px rgba(255, 255, 255, 0.8);
+    }
+    100% {
+      transform: scale(1.5);
+      box-shadow: 0 0 700px rgba(255, 255, 255, 1);
+    }
+  }
+  
+  /* Keyframes for dot moving animation */
+  @keyframes dot-move {
+    0% {
+      transform: translate(0, 0);
+    }
+    25% {
+      transform: translate(500px, 0);
+    }
+    50% {
+      transform: translate(500px, 500px);
+    }
+    75% {
+      transform: translate(0, 500px);
+    }
+    100% {
+      transform: translate(0, 0);
+    }
+  }
+  
+  .dot1 {
+    top: 20%;
+    left: 15%;
+    background-color: #F77EB9;
+    animation-delay: 0s;
+    width: 10px;
+    height: 10px;
+  }
+  
+  .dot2 {
+    top: 50%;
+    left: 10%;
+    background-color: #7EB9F7;
+    animation-delay: 0.5s;
+    width: 10px;
+    height: 10px;
+  }
+  
+  .dot3 {
+    top: 80%;
+    left: 20%;
+    background-color: #F7C67E;
+    animation-delay: 1s;
+    width: 10px;
+    height: 10px;
+  }
+  
+  .dot4 {
+    top: 10%;
+    left: 40%;
+    background-color: #7EF7C6;
+    animation-delay: 1.5s;
+    width: 10px;
+    height: 10px;
+  }
+  
+  .dot5 {
+    top: 70%;
+    left: 50%;
+    background-color: #C67EF7;
+    animation-delay: 2s;
+    width: 10px;
+    height: 10px;
+  }
+  
+  .dot6 {
+    top: 30%;
+    left: 70%;
+    background-color: #F77E7E;
+    animation-delay: 2.5s;
+    width: 10px;
+    height: 10px;
+  }
+  
+  .dot7 {
+    top: 90%;
+    left: 80%;
+    background-color: #7EF77E;
+    animation-delay: 3s;
+    width: 10px;
+    height: 10px;
+  }
+  
+  .dot8 {
+    top: 20%;
+    left: 90%;
+    background-color: #F7B97E;
+    animation-delay: 3.5s;
+    width: 10px;
+    height: 10px;
+  }
+  
+  .dot9 {
+    top: 50%;
+    left: 75%;
+    background-color: #cdf77e;
+    animation-delay: 4s;
+    width: 10px;
+    height: 10px;
+  }
+  
+  .dot10 {
+    top: 80%;
+    left: 60%;
+    background-color: #F7F47E;
+    animation-delay: 4.5s;
+    width: 10px;
+    height: 10px;
+  }
+  
+  .dot11 {
+    top: 15%;
+    left: 25%;
+    background-color: #fa7e7e;
+    animation-delay: 5s;
+    width: 10px;
+    height: 10px;
+  }
+  
+  .dot12 {
+    top: 40%;
+    left: 80%;
+    background-color: #FA7EF7;
+    animation-delay: 5.5s;
+    width: 10px;
+    height: 10px;
+  }
+  
+  .dot13 {
+    top: 60%;
+    left: 30%;
+    background-color: #F7C67E;
+    animation-delay: 6s;
+    width: 10px;
+    height: 10px;
+  }
+  
+  .dot14 {
+    top: 50%;
+    left: 5%;
+    background-color: #F77EB9;
+    animation-delay: 6.5s;
+    width: 10px;
+    height: 10px;
+  }
+  
+  .dot15 {
+    top: 30%;
+    left: 40%;
+    background-color: #f7ae7e;
+    animation-delay: 7s;
+    width: 10px;
+    height: 10px;
+  }
+  
+  .dot16 {
+    top: 70%;
+    left: 80%;
+    background-color: #ed7ef7;
+    animation-delay: 7.5s;
+    width: 10px;
+    height: 10px;
+  }
+  
+  .dot17 {
+    top: 40%;
+    left: 10%;
+    background-color: #7EF7C6;
+    animation-delay: 8s;
+    width: 10px;
+    height: 10px;
+  }
+  
+  .dot18{
+    top: 40%;
+    left: 10%;
+    background-color: #39532f;
+    animation-delay: 8.5s;
+    width: 10px;
+    height: 10px;
+  }
+  .dot19{
+    top: 30%;
+    left: 40%;
+    background-color: #f17ef7;
+    animation-delay: 9s;
+    width: 10px;
+    height: 10px;
+  }
+
+  .dot20{
+    top: 30%;
+    left: 40%;
+    background-color: #a7a1d7;
+    animation-delay: 9.5s;
+    width: 10px;
+    height: 10px;
+  }
+  
